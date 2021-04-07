@@ -1,0 +1,192 @@
+# This file contains the configuration data of all the joints of the lmm
+
+lmm_joints:
+    joint_1_1:
+        servo: 1                     # Servo port on the i2c board
+        min_angle: -1.5708           # Min angle of the joint
+        max_angle: 1.5708            # Max angle of the joint
+        min_input: 96                # Min input to the i2c board for this servo
+        max_input: 510               # Max input to the i2c board for this servo
+        axis: -1                     # Axis multiplier of this servo for CCW motion of joint
+        servo_id: 1                  # Servo identification number
+        board_id: 1                  # i2c board identification number
+    joint_1_2:
+        servo: 2
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 96
+        max_input: 511
+        axis: -1
+        servo_id: 2
+        board_id: 1
+    joint_1_3:
+        servo: 3
+        min_angle: -3.1416
+        max_angle: 0
+        min_input: 96
+        max_input: 510
+        axis: +1
+        servo_id: 3
+        board_id: 1
+    joint_2_1:
+        servo: 17
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 99
+        max_input: 529
+        axis: -1
+        servo_id: 12
+        board_id: 2
+    joint_2_2:
+        servo: 18
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 99
+        max_input: 528
+        axis: -1
+        servo_id: 13
+        board_id: 2
+    joint_2_3:
+        servo: 19
+        min_angle: 0
+        max_angle: 3.1416
+        min_input: 99
+        max_input: 529
+        axis: +1
+        servo_id: 14
+        board_id: 2
+    joint_3_1:
+        servo: 5
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 96
+        max_input: 510
+        axis: -1
+        servo_id: 4
+        board_id: 1
+    joint_3_2:
+        servo: 6
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 96
+        max_input: 510
+        axis: -1
+        servo_id: 5
+        board_id: 1
+    joint_3_3:
+        servo: 7
+        min_angle: -3.1416
+        max_angle: 0
+        min_input: 96
+        max_input: 511
+        axis: +1
+        servo_id: 6
+        board_id: 1
+    joint_4_1:
+        servo: 21
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 99
+        max_input: 529
+        axis: -1
+        servo_id: 15
+        board_id: 2
+    joint_4_2:
+        servo: 22
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 99
+        max_input: 528
+        axis: -1
+        servo_id: 16
+        board_id: 2
+    joint_4_3:
+        servo: 23
+        min_angle: 0
+        max_angle: 3.1416
+        min_input: 100
+        max_input: 530
+        axis: +1
+        servo_id: 17
+        board_id: 2
+    joint_5_1:
+        servo: 9
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 96
+        max_input: 511
+        axis: -1
+        servo_id: 7
+        board_id: 1
+    joint_5_2:
+        servo: 10
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 95
+        max_input: 508
+        axis: -1
+        servo_id: 8
+        board_id: 1
+    joint_5_3:
+        servo: 11
+        min_angle: -3.1416
+        max_angle: 0
+        min_input: 96
+        max_input: 509
+        axis: +1
+        servo_id: 9
+        board_id: 1
+    joint_6_1:
+        servo: 25
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 99
+        max_input: 528
+        axis: -1
+        servo_id: 18
+        board_id: 2
+    joint_6_2:
+        servo: 26
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 99
+        max_input: 527
+        axis: -1
+        servo_id: 19
+        board_id: 2
+    joint_6_3:
+        servo: 27
+        min_angle: 0
+        max_angle: 3.1416
+        min_input: 99
+        max_input: 528
+        axis: +1
+        servo_id: 20
+        board_id: 2
+    joint_m_1:
+        servo: 29
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 100
+        max_input: 530
+        axis: +1
+        servo_id: 10
+        board_id: 1
+    joint_m_2:
+        servo: 13
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 96
+        max_input: 510
+        axis: -1
+        servo_id: 21
+        board_id: 2
+    joint_m_3:
+        servo: 30
+        min_angle: -1.5708
+        max_angle: 1.5708
+        min_input: 100
+        max_input: 530
+        axis: +1
+        servo_id: 11
+        board_id: 1
